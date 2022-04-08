@@ -1,0 +1,42 @@
+package com.hexaware.javabasics;
+
+import java.util.Scanner;
+
+public class ArithmeticOperations {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the choice");
+		System.out.println("1.Add");
+		System.out.println("2.Sub");
+		System.out.println("3.Modulus");
+		System.out.println("4.Div");
+		System.out.println("5.Mul");
+		float choice = input.nextInt();
+		System.out.println("Read value of a");
+		int a = input.nextInt();
+		System.out.println("Read value of b");
+		int b = input.nextInt();
+		switch (choice) {
+		case 1:
+			System.out.println("Addition = " + (a+b));
+			break;
+		case 2:
+			System.out.println("Addition = " + (a+b));
+			break;
+		case 3:
+			System.out.println("Addition = " + (a+b));
+			break;
+		case 4:
+			System.out.println("Addition = " + (a+b));
+			break;
+		case 5:
+			System.out.println("Addition = " + (a+b));
+			break;
+		default:
+			break;
+		}
+		input.close();
+	}
+
+}

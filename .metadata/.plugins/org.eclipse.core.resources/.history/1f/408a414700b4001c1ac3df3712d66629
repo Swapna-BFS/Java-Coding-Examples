@@ -1,0 +1,12 @@
+package com.hexaware.exceptionexample.userdefinedexceptionexample;
+
+public class AgeShouldNotBeNegariveException extends Exception {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6890085246021924560L;
+
+public AgeShouldNotBeNegariveException() {
+	// TODO Auto-generated constructor stub
+}
+}

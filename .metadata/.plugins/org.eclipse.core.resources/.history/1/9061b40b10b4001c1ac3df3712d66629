@@ -1,0 +1,10 @@
+package com.cg.collectioninjava.arraylistdemo.userdefinedobjects;
+
+public class ArrayListOfEmployees {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

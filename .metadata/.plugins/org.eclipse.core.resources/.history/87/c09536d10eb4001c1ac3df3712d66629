@@ -1,0 +1,23 @@
+package com.cg.collectioninjava.arraylistdemo;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+	
+		HashMap<Integer, String>  empData = new HashMap<>();
+		empData.put(123, "Rama");
+		empData.put(124, "Ramya");
+		empData.put(125, "Raman");
+		empData.put(126, "Ramana");
+		empData.put(127, "Rajitha");
+		empData.put(128, "Rama");
+		empData.put(129, "Rama");
+		
+		System.out.println(empData);
+		System.out.println(empData.get(128));
+
+	}
+
+}

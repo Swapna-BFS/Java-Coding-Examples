@@ -1,0 +1,16 @@
+package com.hexaware.exceptionexample.checkedexceptionexample;
+
+import java.io.File;
+
+public class FileHandlingExample {
+
+	public static void main(String[] args) {
+		
+		File fileData = new File("file1.txt");
+		if(fileData.exists()){
+			System.out.println( "FileName = " + fileData.getName());
+		}
+
+	}
+
+}

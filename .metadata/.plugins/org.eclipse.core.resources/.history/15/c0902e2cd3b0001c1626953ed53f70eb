@@ -1,0 +1,36 @@
+package com.hexaware.javabasics;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		
+		//variables => variables should be declared using camelCase
+		int aValueOne = 30;
+		float bData = 40.5f;
+		char chCode = 'y';
+		double piValue = 567.890123;
+		String s =  "Armstrong Number Program in Java
+Armstrong Number is a positive number if it is equal to the sum of cubes of its digits is called Armstrong number and if its sum is not equal to the number then its not a Armstrong number. Armstrong Number Program is very popular in java, c language, python etc. Examples: 153 is Armstrong, (1*1*1)+(5*5*5)+(3*3*3) = 153
+
+Automorphic Number Program in Java
+An Automorphic number is a number whose square “ends” in the same digits as the number itself. Examples: 5*5 = 25, 6*6 = 36, 25*25 = 625
+
+Buzz Number Program in Java
+A number is said to be Buzz Number if it ends with 7 or is divisible by 7. Example: 1007 is a Buzz Number.
+
+Circular Prime Program in Java
+A circular prime is a prime number with the property that the number generated at each intermediate step when cyclically permuting its digits will be prime. For example, 1193 is a circular prime, since 1931, 9311 and 3119 all are also prime.
+
+CoPrime Numbers Program in Java
+Two integers a and b are said to be relatively prime, mutually prime, or coprime if the only positive integer that divides both of them is 1. Example: 13 and 15 are co prime."
+		//literal 
+		//30 => integer literal
+		//40.5f => float literal
+		//567.890123 => double literal
+		//'y' => char literal => unicode charset
+		//"String" => string literal
+		
+		
+	}
+
+}

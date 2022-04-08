@@ -1,0 +1,9 @@
+package com.hexaware.oopsexample.staticexample;
+
+public class Increment {
+	int i;
+	public int increment(){
+		return i++;
+	}
+
+}

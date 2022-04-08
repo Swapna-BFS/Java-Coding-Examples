@@ -1,0 +1,15 @@
+package com.hexaware.oopsexample.innerclassexample;
+
+public class Outer {
+	
+	public void methodOne(){
+		System.out.println("outer class method");
+	}
+	
+	public static class Inner {
+		public void methodTwo(){
+			System.out.println("Inner class method");
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.hexaware.javabasics;
+
+public class HelloMavericks {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello Mavericks Welcome to Hexaware PGET Training Program");
+	}
+
+}

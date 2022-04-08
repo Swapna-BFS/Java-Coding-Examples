@@ -1,0 +1,5 @@
+package com.hexaware.oopsexample.inheritance;
+
+public class FullTimeEmployee {
+
+}

@@ -1,0 +1,26 @@
+package com.hexaware.exceptionexample.uncheckedexceptionexample;
+
+import java.util.Scanner;
+
+public class Division {
+
+	public static void main(String[] args) {
+		Scanner input = null;
+		try{
+		 input = new Scanner(System.in);
+		System.out.println("Enter the value of dividend");
+		int a = input.nextInt();
+		System.out.println("Enter the value od divisor");
+		int b = input.nextInt();
+		if(b <= 0){
+			throw  new Exception("DIVISOR IS LESS THAN ZERO");
+		}
+		System.out.println("Result of Division = " + (a/b));
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+			//e.printStackTrace();
+		}finally {
+			input.close();
+		}
+	}
+}

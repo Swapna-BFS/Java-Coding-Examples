@@ -1,0 +1,16 @@
+package com.hexaware.oopsexample;
+
+public class Car {
+	//variable
+	String brakes;
+	String steering;
+	//method
+	void applyBrakes(){
+		System.out.println("this method is used for applying break");
+	}
+	
+	void rotateSteering(){
+		System.out.println("this method is used for rotating the steering");
+	}
+
+}

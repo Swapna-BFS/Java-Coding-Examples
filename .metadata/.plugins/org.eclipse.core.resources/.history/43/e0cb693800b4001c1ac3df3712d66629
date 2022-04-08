@@ -1,0 +1,7 @@
+package com.hexaware.exceptionexample.userdefinedexceptionexample;
+
+public class AgeShouldNotBeNegariveException extends Exception {
+public AgeShouldNotBeNegariveException() {
+	// TODO Auto-generated constructor stub
+}
+}

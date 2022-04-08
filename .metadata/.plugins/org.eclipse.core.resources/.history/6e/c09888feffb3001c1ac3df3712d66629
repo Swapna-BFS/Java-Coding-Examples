@@ -1,0 +1,11 @@
+package com.hexaware.exceptionexample.userdefinedexceptionexample;
+
+public class AgeNotValidException extends Exception {
+	
+	public AgeNotValidException(String msg) {
+		super(msg);
+		System.out.println("Age not valid Constructor called...");
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.hexaware.oopsexample.construtordemo;
+
+public class SampleDemo extends Demo{
+	
+	public SampleDemo() {
+		System.out.println("");
+	}
+
+}

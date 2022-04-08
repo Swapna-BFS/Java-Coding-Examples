@@ -1,0 +1,8 @@
+package com.hexaware.oopsexample.accessspecifiers;
+
+public class Product {
+	
+	private int productId;
+	
+
+}

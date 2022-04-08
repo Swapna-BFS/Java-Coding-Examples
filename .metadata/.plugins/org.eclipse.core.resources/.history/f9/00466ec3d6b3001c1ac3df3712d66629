@@ -1,0 +1,12 @@
+package com.hexaware.oopsexample.construtordemo;
+
+public class ConstructorDemoMain {
+
+	public static void main(String[] args) {
+		
+		//creating an object for Demo Class
+		Demo d = new Demo();
+
+	}
+
+}

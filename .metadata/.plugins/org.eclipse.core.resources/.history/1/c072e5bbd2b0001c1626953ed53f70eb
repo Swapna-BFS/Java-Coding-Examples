@@ -1,0 +1,21 @@
+package com.hexaware.javabasics;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		
+		int a;
+		float b;
+		char ch;
+		double pi;
+		
+		//literal 
+		//30 => integer literal
+		//40.5f => float literal
+		//567.890123 => double literal
+		//'y' => char literal => unicode charset
+		//"String" => string literal
+		
+	}
+
+}

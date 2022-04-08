@@ -1,0 +1,23 @@
+package com.hexaware.javabasics;
+
+public class StringsInJava {
+
+	public static void main(String[] args) {
+		
+		//first way of declaring the String
+		String s = "This is a string";
+		//second way of declaring the String
+		String s1 = new String();
+		//Third way of declaring the String
+		char[] charArray = new char[10];
+		String s2 = new String(charArray);
+		//Fourth way of declaring the String
+		String s11 = new String("This is a string");
+		
+		System.out.println("First way of string = " + s);
+		System.out.println("second way of string = " + s1);
+		System.out.println("third way of string = " + s2);
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.cg.collectioninjava.arraylistdemo.userdefinedobjects;
+
+public class Employee {
+
+}

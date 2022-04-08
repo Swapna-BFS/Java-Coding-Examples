@@ -1,0 +1,9 @@
+package com.hexaware.oopsexample.finalexample;
+
+public class Sample {
+	
+	public void methodOne(){
+		System.out.println("Method One.....");
+	}
+
+}

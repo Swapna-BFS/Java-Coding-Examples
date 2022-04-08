@@ -1,0 +1,9 @@
+package com.hexaware.oopsexample.construtordemo;
+
+public class Demo {
+	
+	public Demo() {
+		System.out.println("Demo Class Constructor... called...");
+	}
+
+}

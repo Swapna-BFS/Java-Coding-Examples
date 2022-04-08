@@ -1,0 +1,38 @@
+package com.hexaware.javabasics;
+
+import java.util.Scanner;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+
+		// variables => variables should be declared using camelCase
+		int aValueOne = 30;
+		float bData = 40.5f;
+		char chCode = 'y';
+		double piValue = 567.890123;
+		String s = "String";
+		System.out.println("Before Values....");
+		System.out.println(aValueOne);
+		System.out.println(bData);
+		System.out.println(chCode);
+		System.out.println(piValue);
+		System.out.println(s);
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the value of aValueOne....");
+		aValueOne = input.nextInt();
+		System.out.println("Enter the value of bData....");
+		bData = input.nextFloat();
+		System.out.println("Enter the value of chCode....");
+		System.out.println("Enter the value of piValue....");
+		System.out.println("Enter the value of String....");
+		// literal
+		// 30 => integer literal
+		// 40.5f => float literal
+		// 567.890123 => double literal
+		// 'y' => char literal => unicode charset
+		// "String" => string literal
+
+	}
+
+}

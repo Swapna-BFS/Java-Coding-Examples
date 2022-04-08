@@ -1,0 +1,23 @@
+package com.hexaware.javabasics;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		
+		//variables => variables should be declared using camelCase
+		int aValueOne;
+		float bData;
+		char chCode;
+		double piValue;
+		
+		//literal 
+		//30 => integer literal
+		//40.5f => float literal
+		//567.890123 => double literal
+		//'y' => char literal => unicode charset
+		//"String" => string literal
+		
+		
+	}
+
+}

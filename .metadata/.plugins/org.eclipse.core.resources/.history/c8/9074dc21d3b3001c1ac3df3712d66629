@@ -1,0 +1,7 @@
+package com.hexaware.oopsexample.accessspecifiers3;
+
+import com.hexaware.oopsexample.accessspecifiers2.A;
+
+public class D extends A{
+
+}

@@ -1,0 +1,22 @@
+package com.cg.collectioninjava.arraylistdemo;
+
+import java.util.HashSet;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		
+		HashSet<Character> alphabets = new HashSet<Character>();
+		alphabets.add('A');
+		alphabets.add('R');
+		alphabets.add('V');
+		alphabets.add('W');
+		alphabets.add('Z');
+		alphabets.add('Y');
+		alphabets.add('C');
+		alphabets.add('X');
+		alphabets.add('B');
+
+	}
+
+}

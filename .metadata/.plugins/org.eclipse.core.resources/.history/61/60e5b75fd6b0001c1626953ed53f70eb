@@ -1,0 +1,26 @@
+package com.hexaware.javabasics;
+
+import java.util.Scanner;
+
+public class ArithmeticOperations {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the choice");
+		System.out.println("1.Add");
+		System.out.println("2.Sub");
+		System.out.println("3.Modulus");
+		System.out.println("4.Div");
+		System.out.println("5.Mul");
+		switch (choice) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

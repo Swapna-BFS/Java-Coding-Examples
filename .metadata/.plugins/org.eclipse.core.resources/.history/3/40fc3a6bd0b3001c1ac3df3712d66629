@@ -1,0 +1,14 @@
+package com.hexaware.oopsexample.accessspecifiers;
+
+public class Product {
+	
+	private int productId;
+	private String productName;
+	private float productPrice;
+	
+	public void readProductDetails(){
+		//local variables cannot be specified with access specifiers
+		int n;
+	}
+	
+}

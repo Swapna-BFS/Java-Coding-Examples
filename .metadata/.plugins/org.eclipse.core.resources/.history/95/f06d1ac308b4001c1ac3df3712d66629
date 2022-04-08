@@ -1,0 +1,13 @@
+package com.cg.collectioninjava.arraylistdemo;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		// Create an Array List
+		ArrayList<String> empNames = new ArrayList<>();
+
+	}
+
+}

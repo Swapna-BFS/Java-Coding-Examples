@@ -1,0 +1,12 @@
+package com.hexaware.oopsexample;
+
+public class CarMain {
+
+	Car bmw = new Car(); 
+	Car swift = new Car(); 
+	public static void main(String[] args) {
+		
+
+	}
+
+}

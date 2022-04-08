@@ -1,0 +1,5 @@
+package com.hexaware.exceptionexample.userdefinedexceptionexample;
+
+public class AgeNotValidException extends Exception {
+
+}

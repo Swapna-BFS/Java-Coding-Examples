@@ -1,0 +1,20 @@
+package com.hexaware.javabasics;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		//Declaring an array
+		int[] data = new int[10];
+		
+		//Initialization of the array
+		int[] values = {5,45,34,67,89};
+		
+		System.out.println("Accessing array elements using for each....");
+		for(int i : values){
+			System.out.println(i);
+		}
+
+	}
+
+}
